@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito&family=Readex+Pro:wght@600&family=Roboto+Mono:wght@100&family=Roboto:ital@1&family=Source+Sans+Pro:ital@0;1&family=Ubuntu:wght@300&family=Varela&display=swap');
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'spartan' , sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    line-height: 64px;
+    color: black;
+}
+
+h2{
+    font-size: 46px;
+    line-height: 54px;
+    color: black;
+}
+
+h4{
+    font-size: 20px;
+
+    color: black;
+}
+
+h6{
+    font-weight: 700;
+  font-size: 12px;
+}
+
+p{
+
+font-size: 16px;
+color: brown;
+margin: 15px 0 20px 0;
+
+}
+
+.section-p1{
+    padding: 40px 80px;
+
+}
+
+.section-m1{
+    margin: 40px 80px;
+}
+
+body{
+    width: 100%;
+}
+
+#header{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px 80px;
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+background-color: aqua;
+z-index: 999;
+position: sticky;
+left: 0;
+top: 0;
+
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+ 
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+
+    transition: 0.3s ease;
+}
+ 
+#navbar li a:hover {
+     color: green;
+}
+#navbar li a.active{
+    color: green; 
+}
+
+#navbar li a.active::after ,
+#navbar li a:hover::after{
+content: "";
+width: 30%;
+height: 2px;
+background: green;
+position: absolute;
+left: 20px;
+bottom: -4px;
+}
+
+#hero{
+    background-image: url(img/hero4.png);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+      justify-content: center;
+}
+
+#hero h4{
+    padding-bottom: 15px;
+}
+
+#hero h1{
+    color: #088176 ;
+}
+
+#hero button{
+    background-image: url(img/button.png);
+    background-color: transparent;
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    background-repeat:  no-repeat;
+    font-weight: 700;
+    font-size: 15px;
+}
+ 
+  
+#feture{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#feture .fe-box{
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 35px rgba(0, 0, 0, 0.03);
+    border: 1px solid  lightgray;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+#feture .fe-box:hover{
+    box-shadow: 10px 10px 116px rgba(70, 120, 220, 0.2);
+    cursor: pointer;
+}
+#feture .fe-box img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#feture .fe-box h6{
+    display: inline-block;
+    padding: 9px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color:  aliceblue;
+    background-color: #088176;
+    
+}
+
+#feture .fe-box:nth-child(2) h6{
+    background-color: lightblue;
+}
+
+#feture .fe-box:nth-child(3) h6{
+    background-color: lightskyblue;
+}
+
+#feture .fe-box:nth-child(4) h6{
+    background-color: lightseagreen;
+}
+
+#feture .fe-box:nth-child(5) h6{
+    background-color: lightgray;
+}
+
+#feture .fe-box:nth-child(6) h6{
+    background-color: lightslategray;
+}

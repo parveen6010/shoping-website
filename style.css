@@ -520,6 +520,9 @@ footer a:hover{
     color: #088176;
 } 
 
+#close{
+    display: none ;
+}
  @media (max-width:799px) {
     #navbar {
         display: flex;
@@ -534,7 +537,13 @@ footer a:hover{
         background-color: #E3E6f3;
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
         padding: 80px 0 0 10px ;
+        transition: 0.3s;
+        
+     
+    }
   
+    #navbar.active{
+        right: 0px;
     }
     #navbar li{
         margin-bottom: 25px;
@@ -550,5 +559,26 @@ footer a:hover{
         font-size: 24px;
     }
     
-    
+    #close{
+        position: absolute;
+        top: 30px;
+       left: 30px;
+      font-size: 25px;
+      color: black ;   
+     }
+
+     #lg-bag{
+        display: none;
+    }
+    #close{
+        display: flex;
+        text-decoration: none;
+    }
+    #bar{
+        cursor: pointer;
+    }
+   
  }
+
+ 
+

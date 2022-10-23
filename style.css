@@ -170,6 +170,7 @@ bottom: -4px;
   
 #feture{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
@@ -533,7 +534,7 @@ footer a:hover{
         top: 0;
         right: -300px ;
         height: 100vh;
-        width: 300px ;
+       min-width: 300px; 
         background-color: #E3E6f3;
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
         padding: 80px 0 0 10px ;
@@ -578,7 +579,87 @@ footer a:hover{
         cursor: pointer;
     }
    
+#hero{
+   
+    height: 70vh;
+   padding: 0 80px;
+    background-position: top 30% right 30%;
+    
+
+}
+#feture .fe-box h6{
+    padding: 8px 8px;
+    font-size: 14px;
+}
+#feture .fe-box {
+    
+    margin-top: 20px;
+    justify-content: space-between;
+
+}
+#sm-banner{
+    justify-content: space-between;
+}
+
+#banner h4{
+    font-size: 30px;
+}
+#banner h2{
+    font-size: 35px;
+}
+#banner .normal{
+    font-size: 18px;
+
  }
-
+ #sm-banner{
+    
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+height: 30%;
+ }
  
+ button.white {
+    font-size: 20px;
+}
+#sm-banner span {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+#sm-banner h4 {
+    color: #fff;
+    font-size: 30px;
+  
+}
+#banner3 {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 0 ;
+    
+}
+#banner3 .banner-box {
+   
+    padding-right: 20px;
 
+}
+footer .col .href ,
+footer .col p{
+    font-size: 20px;
+}
+
+footer .col h4{
+    font-size: 25px;
+}
+#newsletter p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #818ea8;
+}
+#newsletter input {
+ 
+    width: 130%;
+   
+}
+}

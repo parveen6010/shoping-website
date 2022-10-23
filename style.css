@@ -636,13 +636,17 @@ height: 30%;
 #banner3 {
     display: flex;
     justify-content: space-around;
-    padding: 0 0 ;
-    
+    padding: 0 70px ;
+    margin-right: 25px;
 }
-#banner3 .banner-box {
-   
-    padding-right: 20px;
 
+#banner3 .banner-box {
+     width: 10%;
+
+}
+}
+#banner3 h3{
+   font-size: 20px;
 }
 footer .col .href ,
 footer .col p{

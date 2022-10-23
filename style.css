@@ -332,13 +332,13 @@ box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06) ;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start ;
-   
+     
     background-image: url("img/banner/b17.jpg");
-    width: 580px;
+    width: 50%;
     height: 50vh;
     background-size: cover;
     background-position: center;
-    padding: 30px;
+    padding: 30px ;
 }
 
 #sm-banner .banner-box2{
@@ -347,7 +347,9 @@ box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06) ;
 
 #sm-banner{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around; 
+
+   
 } 
 #sm-banner h4{
     color: #fff;
@@ -598,6 +600,7 @@ footer a:hover{
 
 }
 #sm-banner{
+    
     justify-content: space-between;
 }
 
@@ -666,4 +669,99 @@ footer .col h4{
     width: 130%;
    
 }
+#sm-banner .banner-box {
+
+    width: 100%;
+    height: 50vh;
+  
+}
  }
+
+
+ @media (max-width: 477px) {
+    
+    
+    #sm-banner{
+       
+    width: 100%
+
+
+ }
+ #header {
+
+    padding: 20px 30px;
+
+}
+#hero {
+    height: 60vh;
+    padding: 0 80px 0 0;
+    background-position: top 20% right 20%;
+}
+h2 {
+    font-size: 20px;
+    color: black;
+}
+#hero h1 {
+    font-size: 19px;
+    color: #088176;
+}
+#feture {
+   
+    justify-content: center;
+}
+#product1 .pro-container {
+
+    justify-content: center;
+   
+}
+h2 {
+    font-size: 25px;
+    color: black;
+}
+p {
+    font-size: 16px;
+    color: brown;
+    margin: 15px 0 20px 0;
+}
+.section-p1 {
+    padding: 20px 80px;
+}
+
+#product1 .pro .des span {
+   
+    font-size: 17px;
+}
+#product1 .pro .des h5 {
+   
+    font-size: 19px;
+}
+#feture .fe-box h6 {
+
+    font-size: 17px;
+}
+#banner3 .banner-box {
+    width: 100%;
+}
+
+#sm-banner h2 {
+    color: #fff;
+    font-size: 24px;
+ 
+}
+
+#banner3 {
+   
+    margin-right: 10px;
+    margin-left: 9px;
+}
+#newsletter input {
+    width: 130px;
+}#newsletter button {
+
+    font-size: 16px;
+}
+#newsletter input {
+   
+    font-size: 25px;
+}
+}

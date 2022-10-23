@@ -581,6 +581,11 @@ justify-content: center;
 }
 
 
+#prodetails .single-pro-details{
+    width: 50%;
+    padding-top: 30px;
+}
+
 
 
  @media (max-width:799px) {

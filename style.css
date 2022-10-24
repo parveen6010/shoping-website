@@ -1007,7 +1007,39 @@ h2 {
     font-size: 26px;
    
 }
+#form-details .details .lic {
+    
+    flex-wrap: wrap;
+}
+#contact-details {
+    
+    flex-direction: column;
+   
+}
+#contact-details .map {
+    width: 100%;
+    height: auto;
+}
+#contact-details form {
+    width: 100%;
+    margin: 40px 13px 0 0;
+ 
+ 
+}
+#contact-details form input, textarea {
+    border: 1px solid;
+    box-shadow: none;
+}
+#form-details .details span {
+    padding-left: 20px;
+}
+#page-head h2, p {
+    color: #fff;
+    font-size: 30px;
+}
  }
+ 
+
 
 
  @media (max-width: 477px) {

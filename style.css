@@ -568,7 +568,9 @@ justify-content: center;
     width: 40%;
     margin-right: 50px;
 }
-
+#page-head h2, p {
+    color: black;
+}
 .small-img-group{
     display: flex;
     justify-content: space-between;
@@ -616,6 +618,19 @@ justify-content: center;
 #prodetails .single-pro-details span{
     line-height: 25px ;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
  @media (max-width:799px) {
     #navbar {
         display: flex;

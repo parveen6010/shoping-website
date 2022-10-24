@@ -825,6 +825,10 @@ justify-content: center;
      padding-left: 25px
   }
 
+  #form-details .details span {
+    margin-left: 22px;
+}
+
 
 
  @media (max-width:799px) {
@@ -1228,7 +1232,10 @@ h6 {
    
 }
 
-
+#page-head h2, p {
+    color: #fff;
+    
+}
 
 
 

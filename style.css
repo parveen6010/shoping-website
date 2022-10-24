@@ -829,6 +829,136 @@ justify-content: center;
     margin-left: 22px;
 }
 
+* {
+ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  .backgropund{
+    background-image: url(4.jpg);
+background-size: cover;
+width: 100%;
+position: absolute;
+   height: 600px;
+
+    
+  }
+  main {
+    background-color: white;
+    width: 80%;
+    margin: 15px auto 0;
+  }
+  
+  #studentForm input[name="name"] {
+    grid-area: name;
+  }
+  
+  #studentForm input[name="age"] {
+    grid-area: age;
+  }
+  
+  #studentForm input[name="roll"] {
+    grid-area: roll;
+  }
+  
+  #studentForm button {
+    grid-area: button;
+  }
+  
+  #studentForm {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "name name"
+      "age roll"
+      "button button";
+  }
+  
+  #studentForm * {
+    margin: 7px;
+    padding: 7px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  #studentForm button {
+    outline: none;
+    background-color: #6495ed;
+    color: white;
+    border: 5px solid transparent;
+    cursor: pointer;
+  }
+  
+  #studentForm input {
+    border: 3px solid #6495ed;
+    outline: none;
+  }
+  
+  #studentForm input:focus {
+    border: 3px solid #367bfa;
+  }
+  
+  #studentForm button:active {
+    border-color: #367bfa;
+  }
+  
+  .students {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid gray;
+    background-color: #ebebeb;
+    color: #2f2f2f;
+    border-radius: 15px;
+  }
+  
+  .students div {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .students div * {
+    margin: 5px;
+  }
+
+  .history{
+    background-color: black;
+   border-radius: 10px;
+    font-weight: bolder;
+    height: 5vh;
+    
+     
+     display: flex;
+     margin: 0% 10%;
+     margin-top: 2%;
+  }
+  .c{
+    color: white;
+    font-weight: bolder;
+    font-size: 13px;
+    display: flex;
+    padding: 1% 1%;
+    
+   
+  }
+
+
+  .students  p {
+  
+    color: #088176;
+}
+.students h2 {
+    font-size: 25px;
+    line-height: 54px;
+    color: #088176;
+}
 
 
  @media (max-width:799px) {

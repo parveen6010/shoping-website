@@ -746,6 +746,86 @@ justify-content: center;
     border-radius: 13px;
 }
 
+#contact-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contact-details form{
+ width: 40%;
+ border: 1px solid #088176;
+ padding: 20px  70px 40px 70px;
+ display: flex;
+ flex-direction: column;
+}
+#contact-details form span{
+    padding-top: -5px 0 0 0  ;
+}
+#contact-details form h2{
+ font-size: 20px;
+}
+#contact-details form button{
+    background-color: #465b52;
+    color: #fff;
+   }
+
+#contact-details form input , textarea{
+    padding: 10px;
+    margin: 10px;
+   }
+
+
+#form-details .details h3{
+    padding-top: 20px;
+   
+  }
+
+#form-details .details .lic{
+    padding-top: 30px;
+    display: flex;
+   
+
+  }
+
+#form-details .details li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 10px 1px 10px 20px;
+  }
+
+  #form-details  li i{
+ 
+    padding-right: 5px; 
+    font-size: 20px;
+  }
+
+  #form-details  li p{
+    margin: 0;
+    font-size: 20px;
+  }
+
+#contact-details .map{
+    width: 50%;
+    height: auto;
+
+  }
+
+  #form-details{
+
+    padding: 20px;
+    
+  }
+
+  #form-details form span{
+    font-size: 20px;
+     color: black ; 
+     font-weight: 600 ; 
+     padding-left: 25px
+  }
+
+
 
  @media (max-width:799px) {
     #navbar {

@@ -64,12 +64,98 @@
                 <option value="">small</option>
                 <option value="">Large</option>
             </select>
-            <input type="number"value="1">
-            <button>Add to Cart</button>
+            <input type="number" value="1" >
+            <button class="normal" >Add to Cart</button>
             <h4>product Details</h4>
             <span>it can serve as protection from the elements, rough surfaces, sharp stones, rash-causing plants, insect bites, by providing a barrier between the skin and the environment. Clothing can insulate against cold or hot conditions, and it can provide a hygienic barrier, keeping infectious and toxic materials away from the body</span>
         </div> 
     </section>
+    <section id = "product1" class="section-p1">
+        <h2>Feature Products</h2>
+        <p style="color: black;">Summer Collection New Morden Design</p>
+        <div class="pro-container">
+        <div class="pro">
+           <img src="img/products/n1.jpg" alt="" srcset="">
+           <div class="des">
+              <span>adidas</span>
+              <h5>Cartoon T-shirts</h5>
+              <div class="star">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+
+
+
+              </div>
+              <h4>$75</h4>
+           </div>
+           <a href="#" class="href"><i class="cart fal fa-shopping-cart"></i></a>
+        </div>
+        <div class="pro">
+           <img src="img/products/n2.jpg" alt="" srcset="">
+           <div class="des">
+              <span>adidas</span>
+              <h5>Cartoon T-shirts</h5>
+              <div class="star">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+
+
+
+              </div>
+              <h4>$75</h4>
+           </div>
+           <a href="#" class="href"><i class="cart fal fa-shopping-cart"></i></a>
+        </div>
+
+        <div class="pro">
+           <img src="img/products/n3.jpg" alt="" srcset="">
+           <div class="des">
+              <span>adidas</span>
+              <h5>Cartoon T-shirts</h5>
+              <div class="star">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+
+
+
+              </div>
+              <h4>$75</h4>
+           </div>
+           <a href="#" class="href"><i class="cart fal fa-shopping-cart"></i></a>
+        </div>
+
+        <div class="pro">
+           <img src="img/products/n4.jpg" alt="" srcset="">
+           <div class="des">
+              <span>adidas</span>
+              <h5>Cartoon T-shirts</h5>
+              <div class="star">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+
+
+
+              </div>
+              <h4>$75</h4>
+           </div>
+           <a href="#" class="href"><i class="cart fal fa-shopping-cart"></i></a>
+        </div>
+
+        </div>
+     </section>
+
 
    <section id="newsletter" class="section-p1 section-m1">
      <div class="newstext">
@@ -134,6 +220,28 @@
        <div class="copyright">
          <p>@ 2021 , Tech2 etc </p>
       </div> 
+
+      <script>
+        var MainImg = document.getElementById("MainImg");
+        var small = document.getElementsByClassName("small-img");
+       
+        small[0].onclick = function(){
+            MainImg.src = small[0].src;
+        }
+        small[1].onclick = function(){
+            MainImg.src = small[1].src;
+        }
+        
+        small[2].onclick = function(){
+            MainImg.src = small[2].src;
+        }
+        
+        small[3].onclick = function(){
+            MainImg.src = small[3].src;
+        }
+        
+
+      </script>
        <script src="https://kit.fontawesome.com/b83a29233d.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>

@@ -1221,4 +1221,15 @@ h6 {
 #feture .fe-box h6 {
     font-size: 20px;
 }
+
+#contact-details form {
+   width: 100%;
+    padding: 20px 10px 20px 10px;
+   
+}
+
+
+
+
+
  }

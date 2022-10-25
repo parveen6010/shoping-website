@@ -961,6 +961,11 @@ position: absolute;
 }
 
 
+
+footer .col p{
+    color: #000;
+}
+
  @media (max-width:799px) {
     #navbar {
         display: flex;
